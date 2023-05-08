@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(123, 123, 169);
+}
+div {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}
+input {
+    width: 350px;
+    height: 40px;
+    border-radius: 4px;
+}
