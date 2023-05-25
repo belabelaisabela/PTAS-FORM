@@ -10,10 +10,10 @@
 </head>
 <body>
     <% pessoas.forEach((pessoa) => { %>
-        <p><%= pessoa.nome %></p>
-        <p><%= pessoa.id %></p>
-        <p><%= pessoa.sobrenome %></p>
-        <p><a href="/pessoas/delete?id=<%= pessoa.id %">DELETE</a></p>
+        <p class="infom"><%= pessoa.nome %></p>
+        <p class="infom"><%= pessoa.id %></p>
+        <p class="infom"><%= pessoa.sobrenome %></p>
+        <p class="infom"><a href="/pessoas/delete?id=<%= pessoa.id %">DELETE</a></p>
     <% }) %>
 </body>
 </html>
