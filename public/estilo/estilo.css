@@ -1,15 +1,10 @@
 body {
-    background-color: rgb(123, 123, 169);
+    background-color: rgb(0, 0, 0);
 }
 div {
     color: black;
     font-size: 21px;
     text-align: center;
-}
-input {
-    width: 350px;
-    height: 40px;
-    border-radius: 5px;
 }
 botaovoltar {
     width: 350px;
@@ -19,4 +14,59 @@ botaovoltar {
 infom {
     text-align: center;
     color: black;
+}
+.formm {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background: lightblue;
+    box-shadow: 1px 0px 1.2px 0px #e3e3e3;
+    border-radius: 3px;
+    padding: 1em;
+}
+.inputt {
+    font-size: 16px;
+    font-family: inherit;
+    padding: 8px 15px;
+    border-radius: 6px;
+    border: 1px #dfdfdf solid;
+    background: #fdfdfd;
+    outline: none;
+    color: black;
+    width: 650px;
+    height: 30px;
+    transition: all 0.3s;
+}
+.botaoo {
+    display: block;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: #0a9ea3;
+    color: #fff;
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 6px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.botaoo2 {
+   text-decoration: none;
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgb(0, 0, 0);
+    font-size: 25px;
+    border-radius: 6px;
+    margin: 20px auto;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.texto {
+    text-align: center;
+    color: white;
 }
